@@ -232,8 +232,10 @@ p,li {
 }
 
 nav{
-	display: block;
-	margin: 0;
+	display: inline;
+	margin: 2em;
+	padding: 0;
+	
 }
 
 .showcase {
