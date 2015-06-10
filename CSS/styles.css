@@ -1,10 +1,123 @@
 body {
-	background: teal;
+	padding: 2em;
 }
-	img {
-		width:320px;
-	}	
+
+h1,h2 {
+	font-family: 'Quattrocento', serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p,li, {
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+}
+
 /* Typography */
+
+
+/* Index/Home */
+
+a,
+nav,
+li {
+  margin: 1em auto 0 auto;
+}
+
+body {
+	background: white;
+}
+
+#top, #bottom, #left, #right {
+	background: #a5ebff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+nav {
+  display: table;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 2em;
+  margin: 1em 0;
+  
+}
+
+a:link {
+	color: turquoise;
+  	text-decoration: none;
+	font-family: 'Quattrocento';
+}
+
+a:visited {
+	color: purple;
+}
+
+a:focus {
+  border: 2px double orange;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Quattrocento';
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 0 auto 0 auto;
+
+}
+
+
+h3 {
+  text-align: center;
+  font-family: 'Quattrocento';
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 0 auto 0 auto;
+
+}
+
+.selfie {
+
+	height: 350px;
+	width: 260px;
+	margin-top: 1.5em;
+	margin-left: 18em;
+	float: left;
+	border-radius: 2em;
+}
+
+h2{
+	margin-top: 3em;
+}
+
+h2.resume {
+	margin-top: 1em;
+}
+.home {
+	margin-top: 1.5em;
+	padding-left: 14em;
+	text-align: center;
+}
+}
+
+
+
 
 /* Bio & Resume */
 .bio h1 {
@@ -15,22 +128,72 @@ body {
 	width: 50%;
 }
 
-h1, h2 {
-	font-family: 'Quattrocento', serif;
-	text-transform: uppercase;
-}
 
-p,li {
-	font-family: 'Quattrocento', serif;
-}
 
 .dropcap {
 	font-size: 4em;
 	color: white;
-	background: teal; 
+	background: #a5ebff; 
 	padding: .25em;
 	margin: .25em;
 	float: left;
 }
 
-/* Profolio */
+
+.left-column
+{
+float:left;
+width:30%;
+height: 100%;
+
+}
+.right-column
+{
+float:right;
+width:30%;
+height: 100%;
+text-align: right;
+
+}
+.center-column
+{
+margin:auto;
+width:46%;
+height: 100%;
+text-align: Center;
+
+}
+
+img {
+	height:280px;
+	width: 230px;
+}
+
+
+/* Portfolio */
+
+
+/* Contact */
+input {
+  display: block;
+  margin: .5em 0;
+}
+
+input:focus {
+  background: #a5ebff;
+  border:0;
+  outline:0;
+}
+
+input[type="submit"] {
+  border-radius: 4px;
+}
+
+p {
+	text-align: center;
+}
+
+form {
+	margin-left: 44%
+
+}
