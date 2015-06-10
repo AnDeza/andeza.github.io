@@ -221,6 +221,9 @@ p,li {
 
 }
 
+li {
+	padding:0;
+}
 .home {
 	font-size: 14px;
 	margin-top: 0;
@@ -234,7 +237,7 @@ p,li {
 nav{
 	display: inline;
 	margin: 2em;
-	padding: 0;
+	
 	
 }
 
