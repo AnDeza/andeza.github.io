@@ -221,9 +221,6 @@ p,li {
 
 }
 
-li {
-	padding:0;
-}
 .home {
 	font-size: 14px;
 	margin-top: 0;
@@ -237,8 +234,11 @@ li {
 nav{
 	display: inline;
 	margin: 2em;
-	
-	
+}
+
+li {
+	margin:1em;
+	padding: 0;
 }
 
 .showcase {
