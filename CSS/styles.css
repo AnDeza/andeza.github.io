@@ -232,7 +232,7 @@ p,li {
 }
 
 nav{
-	display: inline;
+	display: block;
 	margin: 0;
 }
 
