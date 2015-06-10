@@ -233,6 +233,7 @@ p,li {
 
 nav{
 	display: inline;
+	margin: 0;
 }
 
 .showcase {
